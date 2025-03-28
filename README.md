@@ -2,7 +2,11 @@
 
 A powerful Go utility that locates and collects `.env` files while preserving directory structures.
 
-![EnvFinder Banner](https://via.placeholder.com/800x200?text=EnvFinder)
+## Why?
+I got a new laptop and needed to back up all my `.env` files from various projects. I wanted a tool that could recursively search through directories, find all `.env` files, and copy them to a backup location while maintaining the original directory structure.
+In order to be fast I consulted my code buddy Claude AI (Claude 3.7 Sonnet) to help me build this tool.
+
+**FIST COMMIT** is the original code written by Claude AI.
 
 ## 🌟 Features
 
@@ -15,7 +19,7 @@ A powerful Go utility that locates and collects `.env` files while preserving di
 
 ```bash
 # Clone the repository (if using git)
-git clone https://github.com/yourusername/envfinder.git
+git clone https://github.com/trapcodeio/envfinder.git
 cd envfinder
 
 # Build the executable
