@@ -3,10 +3,12 @@
 A powerful Go utility that locates and collects `.env` files while preserving directory structures.
 
 ## Why?
-I got a new laptop and needed to back up all my `.env` files from various projects. I wanted a tool that could recursively search through directories, find all `.env` files, and copy them to a backup location while maintaining the original directory structure.
+Needed to back up all my `.env` files from various projects. I wanted a tool that could recursively search through directories, find all `.env` files, and copy them to a backup location while maintaining the original directory structure.
 In order to be fast I consulted my code buddy Claude AI (Claude 3.7 Sonnet) to help me build this tool.
 
 **FIST COMMIT** is the original code written by Claude AI.
+
+**Claude Chat Link**: [Claude Chat - Golang script to find .env files](https://claude.ai/share/6df512ca-ce7b-49ff-818b-ad345ef03d0f)
 
 ## 🌟 Features
 
