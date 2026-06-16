@@ -25,7 +25,7 @@ git clone https://github.com/trapcodeio/envfinder.git
 cd envfinder
 
 # Build the executable
-go build -o envfinder envfinder.go
+go build -o envfinder main.go
 ```
 
 ## 📋 Usage
